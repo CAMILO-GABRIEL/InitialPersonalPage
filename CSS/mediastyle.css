@@ -1,0 +1,130 @@
+body {
+    background-color: #1d2d44;
+    color: #f0f0f0;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+}
+
+.container {
+    max-width: 1000px; 
+    margin: 60px auto;
+    background-color: rgba(255, 255, 255, 0.03);
+    border-top: 5px solid #ffbf00;
+}
+
+header {
+    padding: 60px 50px;
+    background-color: rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+header h1 {
+    color: #ffbf00;
+    font-size: 3rem;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin: 0 0 20px 0;
+}
+
+.hub-nav {
+    margin-top: 20px;
+}
+
+.hub-nav a {
+    color: #00a8e8;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 20px;
+    letter-spacing: 2px;
+}
+
+main {
+    padding: 60px 40px;
+}
+
+.hub-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.hub-item {
+    display: flex;
+    flex-direction: column; /* Stacks image on top of text */
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(0, 168, 232, 0.3);
+    transition: border-color 1s ease;
+}
+
+.hub-item img {
+    width: 100%;
+    aspect-ratio: 1 / 1; /* Keeps the top part a perfect square */
+    object-fit: cover;
+    opacity: 0.7;
+    transition: opacity 1s ease;
+}
+
+.hub-label {
+    padding: 20px 10px;
+    text-align: center;
+    background: #0a1118; /* Darker background for the text area */
+    border-top: 1px solid rgba(0, 168, 232, 0.3);
+    transition: border-color 1s ease;
+}
+
+.hub-label h2 {
+    color: #ffbf00;
+    margin: 0;
+    font-size: 1.2rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.hub-label span {
+    color: #00a8e8;
+    font-size: 0.8rem;
+    display: block;
+    margin-top: 5px;
+}
+
+.hub-item:hover {
+    border-color: #ffbf00;
+}
+
+.hub-item:hover img {
+    opacity: 1;
+}
+
+.hub-item:hover .hub-label {
+    border-color: #ffbf00;
+}
+
+.page-nav {
+    padding: 40px;
+    text-align: center;
+}
+
+.page-nav a {
+    color: #00a8e8;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.page-nav a:hover {
+    color: #ffbf00;
+}
+
+.footer-section {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 40px 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-item strong {
+    display: block;
+    color: #ffbf00;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
