@@ -1,0 +1,130 @@
+body {
+    background-color: #1d2d44;
+    color: #f0f0f0;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    line-height: 1.9;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 60px auto;
+    background-color: rgba(255, 255, 255, 0.03);
+    border-top: 5px solid #ffbf00;
+}
+
+header {
+    padding: 60px 50px;
+    background-color: rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+header h1 {
+    color: #ffbf00;
+    margin: 0;
+    font-size: 3rem;
+    font-weight: 300;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+main {
+    padding: 60px;
+}
+
+h3 {
+    color: #00a8e8;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+
+p {
+    color: #d1d1d1;
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+.photo-wrap {
+    width: 260px;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 12px;
+    border: 1px solid rgba(0, 168, 232, 0.3);
+    margin-bottom: 20px;
+}
+
+.photo-group-right {
+    float: right;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 30px;
+}
+
+.photo-wrap img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.photo-wrap .caption {
+    display: block;
+    font-size: 0.8rem;
+    color: #ffbf00;
+    margin-top: 8px;
+    text-align: center;
+    font-style: italic;
+}
+
+.float-right {
+    float: right;
+    margin-left: 30px;
+}
+
+ul {
+    margin-bottom: 35px;
+    padding-left: 50px;
+}
+
+ul li {
+    color: #f0f0f0;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.page-nav {
+    padding: 30px 50px;
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    clear: both;
+}
+
+.page-nav a {
+    color: #00a8e8;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 0 15px;
+}
+
+.page-nav a:hover {
+    color: #ffbf00;
+}
+
+.footer-section {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 40px 60px;
+    display: flex;
+    justify-content: space-between;
+    clear: both;
+}
+
+.footer-item strong {
+    display: block;
+    color: #ffbf00;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+}

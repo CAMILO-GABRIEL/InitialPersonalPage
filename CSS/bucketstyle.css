@@ -1,0 +1,113 @@
+body {
+    background-color: #1d2d44;
+    color: #f0f0f0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1000px; 
+    margin: 60px auto;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-top: 5px solid #ffbf00;
+    position: relative;
+}
+
+header {
+    padding: 50px 50px 20px 50px;
+    text-align: center;
+    position: relative;
+}
+
+.back-link {
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    color: #00a8e8;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 2px;
+    transition: color 0.3s ease;
+}
+
+.back-link:hover {
+    color: #ffbf00;
+}
+
+header h1 {
+    color: #ffbf00;
+    font-size: 3rem;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+main {
+    padding: 0 50px 40px 50px;
+    text-align: center;
+}
+
+.nav-link {
+    margin: 0 0 40px 0;
+    color: #f0f0f0;
+    font-size: 0.9rem;
+}
+
+.nav-link a {
+    color: #00a8e8;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.nav-link a:hover {
+    color: #ffbf00;
+}
+
+.bucket-list-content {
+    list-style: none;
+    padding: 0;
+    color: #f0f0f0;
+    font-size: 1.2rem;
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.bucket-list-content li {
+    margin-bottom: 15px;
+}
+
+.custom-footer {
+    background-color: #121d2d;
+    border-top: 8px solid #ffbf00;
+    padding: 40px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-col {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footer-col strong {
+    color: #ffbf00;
+    font-size: 0.85rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.footer-col span {
+    color: #f0f0f0;
+    font-size: 0.95rem;
+}
+
+.gold-square {
+    color: #ffbf00;
+    font-size: 0.85rem;
+    margin-right: 5px;
+}

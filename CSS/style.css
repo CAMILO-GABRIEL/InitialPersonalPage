@@ -1,0 +1,116 @@
+body {
+    background-color: #1d2d44;
+    color: #f0f0f0;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 900px;
+    margin: 60px auto;
+    background-color: rgba(255, 255, 255, 0.03);
+    border-top: 4px solid #ffbf00;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 30px 50px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.top-nav {
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.nav-link {
+    color: #00a8e8;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #ffbf00;
+}
+
+header h1 {
+    color: #f0f0f0;
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+main {
+    padding: 50px;
+}
+
+.profile-section {
+    display: grid;
+    /* 180px for photo, 1fr for the About Me text, 300px for the video */
+    grid-template-columns: 180px 1fr 300px; 
+    gap: 30px;
+    align-items: center; /* Vertically centers all three items */
+    padding: 50px;
+}
+
+.video-box {
+    width: 300px;
+    height: 180px;
+    border: 2px solid #00a8e8;
+    background-color: #000;
+    overflow: hidden;
+}
+
+.video-box video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures video covers the box area */
+}
+
+.photo-box {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 3px solid #00a8e8;
+    overflow: hidden;
+}
+
+.photo-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.info-box h2 {
+    color: #ffbf00;
+    font-size: 1.8rem;
+    margin: 0 0 15px 0;
+    letter-spacing: 1px;
+}
+
+.info-box p {
+    margin: 8px 0;
+    font-size: 1.1rem;
+}
+
+.info-box p strong {
+    color: #00a8e8;
+    margin-right: 10px;
+}
+
+.bio-summary p {
+    color: #d1d1d1;
+    font-size: 1.05rem;
+    text-align: left;
+    border-left: 2px solid #00a8e8;
+    padding-left: 25px;
+}
